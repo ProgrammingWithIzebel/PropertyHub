@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".ForgotAuth">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check your email..."
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="we sent a six digit code to your"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="mobile device"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@drawable/btnbackground"
+            android:textColorHint="@color/white"
+            android:hint="9"
+            android:layout_marginRight="5dp"
+            />
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@drawable/btnbackground"
+            android:textColorHint="@color/white"
+            android:hint="9"
+            android:layout_marginRight="5dp"
+            />
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@drawable/btnbackground"
+            android:textColorHint="@color/white"
+            android:hint="9"
+            android:layout_marginRight="5dp"
+            />
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@drawable/btnbackground"
+            android:textColorHint="@color/white"
+            android:hint="9"
+            android:layout_marginRight="5dp"
+            />
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@drawable/btnbackground"
+            android:textColorHint="@color/white"
+            android:hint="9"
+            android:layout_marginRight="5dp"
+            />
+        <EditText
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:background="@drawable/btnbackground"
+            android:textColorHint="@color/white"
+            android:hint="9"
+            android:layout_marginRight="5dp"
+            />
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_verify"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:backgroundTint="#0acf83"
+        android:padding="15dp"
+        app:cornerRadius="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Didn't recieve your code?"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/my_text"/>
+
+
+</LinearLayout>

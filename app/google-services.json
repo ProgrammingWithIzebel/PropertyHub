@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "161532102313",
+    "firebase_url": "https://propertyhub-735e3-default-rtdb.firebaseio.com",
+    "project_id": "propertyhub-735e3",
+    "storage_bucket": "propertyhub-735e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161532102313:android:a59d2ec4ed91e3c52f0bb8",
+        "android_client_info": {
+          "package_name": "com.izebel.propertyhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkDq40GMFcMbre_3blRX2lJxZmcTJ-iK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
